@@ -11,5 +11,5 @@ done
 #spustit pipeline ze souboru
 curl -X POST -H "Content-Type: multipart/form-data" -F "pipeline=@docker-pipeline.jsonld" localhost:8080/resources/executions
 
-#spustit nginx
+#spustit nginx (musi byt az nakonec)
 nginx -g 'daemon off;'
