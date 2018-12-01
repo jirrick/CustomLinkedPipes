@@ -1,0 +1,115 @@
+	.main {margin:auto; padding:20px; text-align:center;}
+	.stat {width:250px; margin:auto; display:block;}
+	h1 {font-family:Calibri;}
+	.option-input-select {margin-bottom:20px;}
+	img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+.hidding
+{
+	display:none;
+
+}
+
+.statistics-name.{
+	text-decoration:underline;
+	font-size: 20px;
+}
+
+
+.global-stat-column
+
+{
+
+	border:0px solid grey;
+	width:25%;
+	float:left;
+	text-align:center;
+	padding:5px;
+}
+.global-stat-column-last{
+
+	border:0px solid grey;
+	width:75%;
+	float:left;
+	text-align:right;
+	padding-top:55px;
+	padding-right:20px;
+}
+
+.stat-class {width:33%; border:0px solid black; float:left;  padding:10px 10px 10px 30px;}
+
+
+h5.global-stat-h5
+{
+	font-size:15px;
+	font-weight:bold;
+	font-family:Calibri;
+	background-color:grey;
+	color:white;
+	padding:10px;
+	margin-top:0px;
+}
+
+h5.main-left
+{
+	font-size:15px;
+	font-weight:bold;
+	font-family:Calibri;
+	background-color:grey;
+	color:white;
+	padding:10px;
+	margin-top:0px;
+}
+
+h5.main-right
+{
+	font-size:15px;
+	font-weight:bold;
+	font-family:Calibri;
+	background-color:grey;
+	color:white;
+	padding:10px;
+	margin-top:0px;
+}
+
+.main-left
+{
+	width:40%;	
+	float:left;
+	text-align:center;
+		padding:20px;
+			border:0px solid blue;
+}
+
+.main-right
+{
+	width:60%;
+		float:left;
+	text-align:center;
+	border:0px solid blue;
+	padding:20px;
+}
+
+#content-stats
+{
+float:left;
+margin-top:30px;
+	
+}
+#global-stats
+{
+float:left;
+margin-top:30px;
+}
+
