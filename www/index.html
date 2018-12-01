@@ -1590,14 +1590,15 @@ json2 = JSON.parse(data);
 
 		const filtered = json.filter((obj) => {
 		const keys = Object.keys(obj);
-		return regex.test(keys[1]);
+		const found = keys.findIndex((key) => regex.test(key));
+		return found > -1;
 		});
 
 		const mapped = filtered.map((obj) => {
 		const keys = Object.keys(obj);
 		return {
 				id: obj[keys[0]],
-				value: obj[keys[1]][0]["@value"],
+				value: parseInt(obj[keys[1]][0]["@value"]),
 			   }
 		});
 
